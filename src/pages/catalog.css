@@ -1,0 +1,26 @@
+.Catalog {
+    background-color:rgb(237, 224, 219);
+    min-height: 90vh;
+}
+
+h1{
+    color:rgb(94, 161, 229);
+}
+
+.btn{
+    margin: 10px 5px 30px 5px;
+    height: 33px;
+    width: auto;
+    background-color: rgb(237, 224, 219);
+    text-align: center;
+    border-radius: 3px;
+    border:rgb(132, 230, 76) solid 1px;
+    color:rgb(132, 230, 76);
+    font-weight:600;
+}
+
+.btn:hover{
+
+    background:rgb(237, 224, 219);
+    cursor: pointer;
+}

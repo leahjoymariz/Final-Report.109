@@ -1,0 +1,52 @@
+.product {
+    border: 1px solid rgb(219, 61, 61);
+    display: inline-block;
+    width: 240px;
+    height: 320px;
+    margin: 5px 7px;
+    border-radius: 4px;
+    background-color:rgb(208, 231, 233);
+    padding: 10px;
+    box-shadow: 1px 1px 6px -2px rgb(221, 152, 103);
+}
+
+.product:hover {
+    border-color: rgb(48, 134, 196);
+    box-shadow:rgb(17, 56, 58);
+}
+.product .prices{
+    display: flex;
+}
+
+.product .prices label {
+    flex: 1;
+}
+.product img {
+    width: 200px;
+    height: 180px;
+}
+
+.product .controls {
+    display: flex;
+    padding-top: 10px;
+    border: 1px solid #e4c3c3;
+  
+}
+
+.product .controls div{
+    flex: 3;
+}
+
+.product .controls .button {
+    flex: 1;
+    margin-right: 10px;
+}
+
+@media(max-width: 400px) {
+    .product
+    {
+        width: 85%;
+        margin-left: 2%;
+        height: auto;
+    }
+}

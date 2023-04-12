@@ -1,0 +1,23 @@
+
+
+
+.Home {
+    background-color:white;
+}
+
+.Home h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(204, 232, 178);
+    color:rgb(0, 0, 0);
+    font-family:serif;
+}
+
+.Home h2 {
+    background-color: white;
+    font-size: 25px;
+    font-family: serif;
+    margin-top: 40px;
+
+}
